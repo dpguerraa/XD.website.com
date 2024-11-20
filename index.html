@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XD Magazine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="flag-map">
+        <img src="assets/philippine-flag.svg" alt="Philippine Flag" class="flag">
+        <img src="assets/philippine-map.svg" alt="Philippine Map" class="map">
+      </div>
+      <div class="title">
+        <h1>XD Magazine</h1>
+        <p>"Think Outside the Site" - Engaging Filipino Stories</p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#team">Our People</a>
+    <a href="#feedback">Feedback</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About XD Magazine</h2>
+      <p>
+        XD Magazine celebrates Filipino narratives, focusing on stories that highlight challenges and successes.
+        The name "XD" evokes nostalgia and joy, symbolizing the shared experiences and memories of Filipinos.
+      </p>
+      <p>
+        Our mission is to entertain, inform, and inspire by delivering high-quality, engaging content that reflects
+        the unique Filipino identity.
+      </p>
+    </section>
+
+    <section id="team">
+      <h2>Our People</h2>
+      <div class="team">
+        <div>
+          <h3>Dome Guerra</h3>
+          <p>Editor-in-Chief</p>
+        </div>
+        <div>
+          <h3>Kyla Hernandez</h3>
+          <p>Associate Editor</p>
+        </div>
+        <div>
+          <h3>Donafae Ona</h3>
+          <p>Managing Editor</p>
+        </div>
+        <div>
+          <h3>Zamantha Endaya</h3>
+          <p>Literary Editor</p>
+        </div>
+        <div>
+          <h3>Marion Pansoy</h3>
+          <p>Chief Photographer</p>
+        </div>
+        <div>
+          <h3>Desiree Matienzo</h3>
+          <p>Layout Artist</p>
+        </div>
+        <div>
+          <h3>Lemuel Laylo</h3>
+          <p>Chief Artist</p>
+        </div>
+        <div>
+          <h3>Janella Martirez</h3>
+          <p>Writer</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="feedback">
+      <h2>Send Us Feedback</h2>
+      <form action="https://formsubmit.co/domeguerra874@gmail.com" method="POST">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 XD Magazine</p>
+  </footer>
+</body>
+</html>
